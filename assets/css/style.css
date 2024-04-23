@@ -5,7 +5,7 @@
 }
 
 header #header-up {
-  background-color: #ff6900;
+  background-color: #ff9900;
 }
 header #header-up .header-up-left {
   height: 45px;
@@ -15,6 +15,8 @@ header #header-up .header-up-left > ul > li {
   padding: 0px 8px;
   border-right: 1px solid white;
   cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
 }
 header #header-up .header-up-left > ul .i3 {
   border: 0;
@@ -28,6 +30,7 @@ header #header-up .header-up-right > ul > li {
   border-right: 1px solid white;
   font-weight: 500;
   cursor: pointer;
+  font-size: 14px;
 }
 header #header-up .header-up-right > ul .i2 {
   border: 0;
@@ -71,4 +74,244 @@ header #header-down .search-icon > i:hover {
 
 main #img-slider .main-image {
   width: 100%;
+}
+main #options .headings-for-products {
+  color: #727272;
+}
+main #options .item {
+  background-image: url(../images/360_F_379686948_bRdGj8kUK1RLyAX0QDvdgidOp4uOgz98.jpg);
+  margin-top: 30px;
+  margin-right: 30px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main #options .item .price-up {
+  margin-left: 270px;
+  background-color: white;
+  padding: 35px 2px 15px 2px;
+  font-size: 23px;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #ff6900;
+}
+main #options .item .card-heading {
+  color: white;
+  padding-top: 70px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+main #options .item .card-prices {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: rgba(255, 255, 255, 0.871);
+  color: #ff6900;
+  padding: 20px 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+main #options .item .card-prices h3 {
+  font-size: 40px;
+  font-family: 700;
+}
+main #options .item .card-prices .cntr {
+  text-align: center;
+}
+main #options .item .card-prices .cntr i {
+  font-size: 25px;
+}
+main #options .item .card-prices hr {
+  margin: 0;
+  border-color: rgb(87, 87, 87);
+  width: 70%;
+  margin: 0 auto;
+  height: 5px;
+}
+main #options .item .card-button {
+  position: absolute;
+  margin-top: -34px;
+  margin-left: 274.5px;
+}
+main #options .item .card-button button {
+  padding: 7px 25px;
+  border-radius: 10px;
+  background-color: #ff6900;
+  color: white;
+  border: 0px;
+}
+main #options .arrow {
+  font-size: 40px;
+  align-self: center;
+  justify-self: end;
+  cursor: pointer;
+}
+main #options .fa-angle-right {
+  font-size: 45px;
+}
+main #application {
+  position: relative;
+  margin-top: 40px;
+  background-image: url(../images/137-1378766_geometric-background-images-in-orange-and-white-background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main #application .naxtel-logo {
+  margin-top: 130px;
+}
+main #application .naxtel-logo img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+main #application .description {
+  margin-top: 20px;
+  color: #ff6900;
+}
+main #application .description h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+main #application .description p {
+  font-size: 20px;
+  font-weight: 400;
+}
+main #application .download img {
+  width: 150px;
+  cursor: pointer;
+}
+main #application .col-4 img {
+  width: 600px;
+  margin-left: -200px;
+  margin-top: -8px;
+}
+main #offers .offers-headings {
+  margin-top: 20px;
+}
+main #offers .offers-headings h1 {
+  justify-self: center;
+  color: #727272;
+  font-size: 40px;
+  font-weight: 600;
+}
+main #offers .offer {
+  margin-top: 40px;
+  text-align: center;
+  justify-content: space-between;
+}
+main #offers .offer img {
+  cursor: pointer;
+  width: 150px;
+}
+main #offers .offer p {
+  cursor: pointer;
+  margin-top: 10px;
+  color: #636d7c;
+  font-size: 20px;
+}
+main #offers .offer button {
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid #ff6900;
+  color: #ff6900;
+  padding: 5px 12px;
+  background-color: white;
+  transition: all 0.5s;
+}
+main #offers .offer button:hover {
+  background-color: #ff6900;
+  color: white;
+}
+main #news {
+  margin-top: 30px;
+}
+main #news .news-heading h1 {
+  justify-self: center;
+  color: #727272;
+}
+main #news .news-items {
+  justify-content: space-between;
+}
+main #news .news-items .col-6 {
+  justify-content: space-between;
+}
+main #news .news-items .col-6 p {
+  margin-top: 15px;
+  color: #767f8b;
+  font-size: 14px;
+}
+main #news .news-items .col-6 h3 {
+  color: #727272;
+}
+main #news .news-items .col-6 button {
+  background-color: white;
+  border: 1px solid #ff6900;
+  color: #ff6900;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+main #news .news-items .col-6 button:hover {
+  background-color: #ff6900;
+  color: white;
+}
+main #news .fa-chevron-left {
+  cursor: pointer;
+  font-size: 30px;
+  align-self: center;
+  color: #ff6900;
+}
+main #news .fa-angle-right {
+  cursor: pointer;
+  font-size: 33px;
+  align-self: center;
+  justify-self: end;
+  color: #ff6900;
+}
+
+footer {
+  margin-top: 10px;
+}
+footer #footer-up {
+  background-color: rgb(1, 154, 154);
+}
+footer #footer-up .col-3 {
+  color: white;
+}
+footer #footer-up .col-3 h3 {
+  margin-top: 40px;
+  margin-left: 31px;
+  font-size: 22px;
+  font-weight: 600;
+}
+footer #footer-up .col-3 ul {
+  margin-top: 10px;
+  list-style: none;
+}
+footer #footer-up .col-3 ul li {
+  cursor: pointer;
+  font-weight: 400;
+}
+footer #footer-down {
+  background-color: rgb(0, 105, 105);
+  padding-bottom: 15px;
+}
+footer #footer-down .container > div:first-child p {
+  color: white;
+  margin-left: 30px;
+  font-weight: 500;
+}
+footer #footer-down .container > div:last-child {
+  margin-left: 30px;
+  gap: 13px;
+}
+footer #footer-down .container > div:last-child i {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
